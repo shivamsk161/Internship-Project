@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pickle import dump
 from pickle import load
-
-dump(lb,open('label_encoder.pkl','wb'))
-dump(sc,open('standard_scaler.pkl','wb'))
-dump(gb,open('gb.pkl','wb'))
 
 lb=load(open('label_encoder.pkl','rb'))
 sc=load(open('standard_scaler.pkl','rb'))
