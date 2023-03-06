@@ -28,7 +28,7 @@ with st.form('my_form'):
   
   if btn:
     if Name and City and Country and Region and Segment and Ship_Mode and State and Product_name and Category and Sub_Category and Days_to_Ship and Discount and Profit and Quantity:
-      query_cat=pd.DataFrame({'Customer Name':[name], 'City':[city],'Country':[country],'Region':[region],'Segment':[segment],'Ship Mode':[ship],'State':[state],'Product Name':[prod],'Category':[cat],'Sub-Category':[sub_cat]})
+      query_cat=pd.DataFrame({'Customer Name':[Name], 'City':[city],'Country':[country],'Region':[region],'Segment':[segment],'Ship Mode':[ship],'State':[state],'Product Name':[prod],'Category':[cat],'Sub-Category':[sub_cat]})
       query_num=pd.DataFrame({'Days to Ship':[day_to_ship], 'Discount':[discount],'Profit':[profit],'Quantity':[quantity]})
       
       query_cat['Customer Name']=lb.fit_transform(query_cat['Customer Name'])
