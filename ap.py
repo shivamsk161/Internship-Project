@@ -27,7 +27,7 @@ with st.form('my_form'):
   btn = st.form_submit_button(label='Predict')
   
   if btn:
-    if Name and City and Country and Region and Segment and Ship_Mode and State and Product_name and Category and Sub_Category and Days_to_Ship and Discount and Profit and Quantity:
+    if name and city and country and region and segment and ship and state and prod and cat and sub_cat and day_to_ship and discount and profit and quantity:
       query_cat=pd.DataFrame({'Customer Name':[name], 'City':[city],'Country':[country],'Region':[region],'Segment':[segment],'Ship Mode':[ship],'State':[state],'Product Name':[prod],'Category':[cat],'Sub-Category':[sub_cat]})
       query_num=pd.DataFrame({'Days to Ship':[day_to_ship], 'Discount':[discount],'Profit':[profit],'Quantity':[quantity]})
       
