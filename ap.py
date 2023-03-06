@@ -51,4 +51,4 @@ with st.form('my_form'):
       st.success(f"Sales is {round(Sales[0],0)}")
       
       else:
-      st.error('Category not found')
+      st.error('Please enter all values')
