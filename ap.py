@@ -50,5 +50,5 @@ with st.form('my_form'):
       Sales=gb.predict(query)       
       st.success(f"Sales is {round(Sales[0],0)}")
       
-      else:
+    else:
       st.error('Please enter all values')
