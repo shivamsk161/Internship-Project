@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from pickle import load
 
+lb=load(open('label_encoder.pkl','rb'))
 sc=load(open('standard_scaler.pkl','rb'))
 gb=load(open('gb.pkl','rb'))
 
