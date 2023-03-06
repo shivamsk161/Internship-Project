@@ -1,0 +1,21 @@
+,Order Date,Customer Name,City,Country,Region,Segment,Ship Date,Ship Mode,State,Days to Ship,Product Name,Discount,Sales,Profit,Quantity,Category,Sub-Category
+6674,2016-08-08,Charlie Power,Essen,Germany,Central,Home Office,2016-08-15,Economy,North Rhine-Westphalia,7.0,"Smead Folders, Wire Frame",0.1,119.0,-5.0,8.0,Office Supplies,Storage
+6737,2016-08-13,Lester Wimmer,Geneva,Switzerland,Central,Consumer,2016-08-13,Immediate,Geneva,0.0,"Cardinal Binder Covers, Clear",0.0,34.0,9.0,3.0,Office Supplies,Binders
+6212,2016-06-05,Laura Elizabeth,London,United Kingdom,North,Consumer,2016-06-12,Economy,England,7.0,"Panasonic Calculator, Durable",0.1,181.0,8.0,4.0,Technology,Machines
+2172,2014-07-02,Tricia Bustamante,Edinburgh,United Kingdom,North,Corporate,2014-07-07,Economy,Scotland,5.0,"Nokia Headset, Cordless",0.0,380.0,84.0,5.0,Technology,Phones
+2213,2014-07-14,Angus Reading,London,United Kingdom,North,Corporate,2014-07-18,Economy,England,4.0,"StarTech Inkjet, White",0.1,710.5,116.0,3.0,Technology,Machines
+3306,2014-12-29,Sandra Hooks,Edinburgh,United Kingdom,North,Corporate,2015-01-04,Economy,Scotland,6.0,"Stanley Markers, Fluorescent",0.0,141.0,48.0,6.0,Office Supplies,Art
+236,2013-04-04,Aaron Bootman,Edinburgh,United Kingdom,North,Consumer,2013-04-09,Economy,Scotland,5.0,"Novimex Shipping Labels, Alphabetical",0.0,32.0,16.0,3.0,Office Supplies,Labels
+1230,2013-11-27,Dominic Jordan,Grigny,France,Central,Consumer,2013-12-01,Economy,Ile-de-France,4.0,"Stanley Pens, Easy-Erase",0.0,52.0,23.0,5.0,Office Supplies,Art
+7534,2016-11-13,Gary Crume,Amsterdam,Netherlands,Central,Consumer,2016-11-19,Economy,North Holland,6.0,"Wilson Jones Hole Reinforcements, Recycled",0.25,7.0,-4.0,3.0,Office Supplies,Binders
+2491,2014-08-24,Mackenzie Whitford,Bury,United Kingdom,North,Consumer,2014-08-28,Economy,England,4.0,"Accos Thumb Tacks, Assorted Sizes",0.0,78.0,5.0,7.0,Office Supplies,Fasteners
+6376,2016-06-25,Toby Patterson,Berlin,Germany,Central,Home Office,2016-06-29,Economy Plus,Berlin,4.0,"Kraft Interoffice Envelope, Security-Tint",0.1,133.0,0.0,3.0,Office Supplies,Envelopes
+3674,2015-03-21,Louie Knight,Enschede,Netherlands,Central,Consumer,2015-03-26,Economy,Overijssel,5.0,"Novimex Color Coded Labels, Alphabetical",0.25,18.0,-6.0,3.0,Office Supplies,Labels
+4219,2015-07-07,Robert Ramsey,Turin,Italy,South,Consumer,2015-07-10,Economy Plus,Piedmont,3.0,"Jiffy Business Envelopes, Security-Tint",0.0,32.0,2.0,2.0,Office Supplies,Envelopes
+4191,2015-06-30,Michael Myers,Madrid,Spain,South,Home Office,2015-07-05,Economy,Madrid,5.0,"Tenex Frame, Erganomic",0.0,326.0,107.0,3.0,Furniture,Furnishings
+4532,2015-08-24,Kristen Holland,Barnsley,United Kingdom,North,Consumer,2015-08-26,Priority,England,2.0,"Acco Binder, Economy",0.0,61.0,8.0,4.0,Office Supplies,Binders
+4954,2015-10-19,Florence Wark,Seraing,Belgium,Central,Consumer,2015-10-23,Economy,Liège,4.0,"Enermax Note Cards, Premium",0.0,86.0,9.0,3.0,Office Supplies,Paper
+4006,2015-06-10,Jay Andrews,Paris,France,Central,Consumer,2015-06-16,Economy,Ile-de-France,6.0,"GlobeWeis Peel and Seal, Set of 50",0.0,43.0,0.0,2.0,Office Supplies,Envelopes
+4548,2015-08-26,Luz Reilly,Redditch,United Kingdom,North,Consumer,2015-08-28,Priority,England,2.0,"Fiskars Trimmer, Easy Grip",0.0,88.0,32.0,2.0,Office Supplies,Supplies
+6021,2016-04-26,Jay Johnson,Niort,France,Central,Consumer,2016-05-02,Economy,Aquitaine-Limousin-Poitou-Charentes,6.0,"Ibico Binding Machine, Economy",0.0,257.0,23.0,5.0,Office Supplies,Binders
+5383,2015-12-25,Mary Wilson,Halle,Germany,Central,Consumer,2015-12-29,Economy Plus,North Rhine-Westphalia,4.0,"Office Star Swivel Stool, Adjustable",0.1,159.0,0.0,1.0,Furniture,Chairs
