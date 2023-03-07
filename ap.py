@@ -13,7 +13,6 @@ selected = option_menu(
 
 if selected == 'Home':
     st.title('Amazing Mart Dataset')
-    st.image('mart.jpeg')
     st.markdown("""---""")
     st.markdown("""---""")
 
