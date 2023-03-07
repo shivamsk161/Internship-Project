@@ -44,5 +44,5 @@ with st.form('my_form'):
                 query=pd.concat([pd.DataFrame(query_cat),pd.DataFrame(query_num)],axis=1)
                 Sales=gb.predict(query)       
                 st.success(f"Sales is {round(Sales[0],0)}")
-                else:
-                    st.error('Please enter all values')
+            else:
+                st.error('Please enter all values')
