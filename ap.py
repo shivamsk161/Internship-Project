@@ -1,15 +1,41 @@
 import streamlit as st
 import pandas as pd
 from pickle import load
-import streamlit as st
+from streamlit_option_menu import option_menu
 
-lb=load(open('label_encoder.pkl','rb'))
-sc=load(open('standard_scaler.pkl','rb'))
-gb=load(open('gb.pkl','rb'))
+
+selected = option_menu(
+    menu_title = None,
+    options=["Home", "Prediction"],
+    icons = ['house', 'emoji-dizzy'],
+    menu_icon = 'cast',
+    default_index=0,
+    orientation='horizontal'
+)
+
+if selected == 'Home':
+    st.title('Amazing Mart Dataset')
+    st.image('mart.jpeg')
+    st.markdown("""---""")
+    st.markdown("""---""")
+
+
     
 
-st.title('Sales Prediction')
-df=pd.read_csv('Sales_df.csv')
+    st.title('Mart Dataset')
+
+    df1 = df.drop('Sales',axis = 1)
+    st.dataframe(df1)
+
+    st.subheader('Shape of Datasets')
+    st.dataframe(df.shape)
+    
+
+if selected == 'Prediction':
+    lb=load(open('label_encoder.pkl','rb'))
+    sc=load(open('standard_scaler.pkl','rb'))
+    gb=load(open('gb.pkl','rb'))
+    
 
 with st.form('my_form'):
   name=st.selectbox(label='Customer Name',options=df['Customer Name'].unique())
