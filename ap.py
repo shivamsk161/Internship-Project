@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sklearn
 from pickle import load
 
 lb=load(open('label_encoder.pkl','rb'))
