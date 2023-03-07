@@ -1,31 +1,15 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import pandas as pd
 from pickle import load
 
 df=pd.read_csv('Sales_df.csv')
+st.title('Sales Prediction')
 
-selected = option_menu(
-    menu_title = None,
-    options=["Home", "Prediction"],
-    default_index=0,
-)
+df1 = df.drop('Sales',axis = 1)
+st.dataframe(df1)
 
-if selected == 'Home':
-    st.title('Amazing Mart Dataset')
-    st.markdown("""---""")
-    st.markdown("""---""")
-
-
-    
-
-    st.title('Sales Prediction')
-
-    df1 = df.drop('Sales',axis = 1)
-    st.dataframe(df1)
-
-    st.subheader('Shape of Datasets')
-    st.dataframe(df.shape)
+st.subheader('Shape of Datasets')
+st.dataframe(df.shape)
     
 
 if selected == 'Prediction':
