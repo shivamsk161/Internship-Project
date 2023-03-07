@@ -4,4 +4,4 @@ matplotlib==3.4.3
 seaborn==0.11.2
 scikit-learn
 streamlit==1.12.0
-streamlit_option_menu==
+streamlit_option_menu==0.19.3
