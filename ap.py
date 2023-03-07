@@ -1,4 +1,5 @@
 import streamlit as st
+!pip install streamlit-option-menu
 from streamlit-option-menu import option_menu
 import pandas as pd
 from pickle import load
