@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from pickle import load
-import streamlit_option_menu as option_menu
+import streamlit-option-menu as option_menu
 
 
 selected = option_menu(
