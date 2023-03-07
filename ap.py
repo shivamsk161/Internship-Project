@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from pickle import load
+df=pd.read_csv('Sales_df.csv')
 
 
 with st.form('my_form'):
