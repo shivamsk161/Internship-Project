@@ -2,13 +2,16 @@ import streamlit as st
 import pandas as pd
 from pickle import load
 
-lb=load(open('label_encoder.pkl','rb'))
-sc=load(open('standard_scaler.pkl','rb'))
-gb=load(open('gb.pkl','rb'))
-
 st.title('Sales Prediction')
 
 df=pd.read_csv('Sales_df.csv')
+
+
+if selected == 'Prediction':
+  lb=load(open('label_encoder.pkl','rb'))
+  sc=load(open('standard_scaler.pkl','rb'))
+  gb=load(open('gb.pkl','rb'))
+
 
 with st.form('my_form'):
   name=st.selectbox(label='Customer Name',options=df['Customer Name'].unique())
