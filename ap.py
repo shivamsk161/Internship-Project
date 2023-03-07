@@ -4,17 +4,6 @@ from pickle import load
 
 df=pd.read_csv('Sales_df.csv')
 st.title('Sales Prediction')
-    
-if selected == 'Prediction':
-   lb=load(open('label_encoder.pkl','rb'))
-   sc=load(open('standard_scaler.pkl','rb'))
-   gb=load(open('gb.pkl','rb'))
-
-
-st.title('Sales Prediction')
-
-df=pd.read_csv('Sales_df.csv')
-
 
 if selected == 'Prediction':
   lb=load(open('label_encoder.pkl','rb'))
