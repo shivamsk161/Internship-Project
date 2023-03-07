@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 from pickle import load
 df=pd.read_csv('Sales_df.csv')
+lb=load(open('label_encoder.pkl','rb'))
+sc=load(open('standard_scaler.pkl','rb'))
+gb=load(open('gb.pkl','rb'))
 
 
 with st.form('my_form'):
-        lb=load(open('label_encoder.pkl','rb'))
-        sc=load(open('standard_scaler.pkl','rb'))
-        gb=load(open('gb.pkl','rb'))
         name=st.selectbox(label='Customer Name',options=df['Customer Name'].unique())
         city=st.selectbox(label='City',options=df['City'].unique())
         country=st.selectbox(label='Country',options=df['Country'].unique())
