@@ -1,10 +1,14 @@
 import streamlit as st
 import pandas as pd
 from pickle import load
-df=pd.read_csv('Sales_df.csv')
+
 lb=load(open('label_encoder.pkl','rb'))
 sc=load(open('standard_scaler.pkl','rb'))
 gb=load(open('gb.pkl','rb'))
+
+st.title('Sales Prediction')
+
+df=pd.read_csv('Sales_df.csv')
 
 
 with st.form('my_form'):
