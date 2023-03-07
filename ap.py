@@ -32,12 +32,6 @@ if selected == 'Prediction':
    sc=load(open('standard_scaler.pkl','rb'))
    gb=load(open('gb.pkl','rb'))
 
-if selected == 'Prediction':
-  lb=load(open('label_encoder.pkl','rb'))
-  sc=load(open('standard_scaler.pkl','rb'))
-  gb=load(open('gb.pkl','rb'))
-
-
 with st.form('my_form'):
   name=st.selectbox(label='Customer Name',options=df['Customer Name'].unique())
   city=st.selectbox(label='City',options=df['City'].unique())
