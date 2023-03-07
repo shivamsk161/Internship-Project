@@ -4,14 +4,7 @@ from pickle import load
 
 df=pd.read_csv('Sales_df.csv')
 st.title('Sales Prediction')
-
-df1 = df.drop('Sales',axis = 1)
-st.dataframe(df1)
-
-st.subheader('Shape of Datasets')
-st.dataframe(df.shape)
     
-
 if selected == 'Prediction':
    lb=load(open('label_encoder.pkl','rb'))
    sc=load(open('standard_scaler.pkl','rb'))
